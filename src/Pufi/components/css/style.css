@@ -1,0 +1,47 @@
+.carousel,
+.carousel-inner>.carousel-item>img {
+    height: 585px;
+}
+
+.carrusel1{
+    margin-top: -90px;
+}
+
+.navbar-expand {
+    justify-content: space-around !important;
+}
+
+.navbar{
+    z-index: 10;
+}
+
+.bg-img {
+    background-image: url(../../../assets/img/city.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 426px;
+}
+
+.boton_card {
+    border-radius: 0px;
+    border-color: var(--bg-color-primary);
+    color: var(--bg-color-primary);
+    width: 150px;
+
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: white;
+    --bs-btn-hover-border-color: white;
+}
+
+.img_descp{
+    width: 30%;
+}
+
+.cl_w{
+    color: gray;
+    width: 50%;
+}
+
+.cursor{
+    cursor: pointer;
+}

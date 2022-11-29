@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+#root {
+  max-width: 1330px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+:root{
+  --bg-color-primary: white;
+  --bg-color-secondary: black;
+}
+
+
+.pufiwhite{
+  font-family: 'Fredoka One', cursive;
+  color: var(--bg-color-primary);
+}
+
+.pufiblack{
+  font-family: 'Fredoka One', cursive;
+  color: var(--bg-color-secondary);
+}
+
+.letter {
+  font-family: 'Poppins', sans-serif;
+  color: var(--bg-color-primary);
+  font-weight: bold;
+}
+
+.letter_cont {
+  font-family: 'Poppins', sans-serif;
+  color: var(--bg-color-secondary);
+  font-weight: bold;
+}
+
+.cuenta {
+  font-family: 'Prompt', sans-serif;
+  color: var(--bg-color-secondary);
+  font-size: 12px;
+}
+
+p {
+  font-size: 12px;
+}
