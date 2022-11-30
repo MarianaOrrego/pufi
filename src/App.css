@@ -45,6 +45,10 @@
   font-family: 'Prompt', sans-serif;
   color: var(--bg-color-secondary);
 }
+
+.align_text{
+  text-align: justify;
+}
 .gray{
   color: gray;
 }

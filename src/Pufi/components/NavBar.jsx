@@ -9,7 +9,7 @@ import { FaBox } from "react-icons/fa";
 
 export function NavBar() {
   return (
-    <Navbar className='navbar'>
+    <Navbar collapseOnSelect className='navbar'>
       <Navbar.Brand href="#home">
         <h1 className='pufiwhite'>Pufi</h1>
       </Navbar.Brand>
