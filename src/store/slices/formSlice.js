@@ -3,13 +3,14 @@ import { createSlice } from '@reduxjs/toolkit';
 export const formSlice = createSlice({
     name: 'form',
     initialState: {
-        counter: 10
+        suscriptor: [],
+        isSubmit: false
     },
     reducers: {
-        increment: (state, /* action */ ) => {
-            state.counter += 1;
+        formSubmit: (state, /* action */ ) => {
+            state.isSubmit = true;
         },
     }
 });
 // Action creators are generated for each case reducer function
-export const { increment } = formSlice.actions;
+export const { formSubmit } = formSlice.actions;

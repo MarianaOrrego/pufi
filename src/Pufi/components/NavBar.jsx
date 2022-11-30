@@ -2,6 +2,10 @@
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { FaChair } from "react-icons/fa";
+import { FaUmbrella } from "react-icons/fa";
+import { FaShoppingBag } from "react-icons/fa";
+import { FaBox } from "react-icons/fa";
 
 export function NavBar() {
   return (
@@ -10,21 +14,17 @@ export function NavBar() {
         <h1 className='pufiwhite'>Pufi</h1>
       </Navbar.Brand>
       <Nav className="justify-content-center">
-        <Nav.Link href="#home" className='letter'>PUFI PUFF</Nav.Link>
-        <Nav.Link href="#features">PUFI RAIN</Nav.Link>
-        <Nav.Link href="#pricing">PUFI CART</Nav.Link>
-        <Nav.Link href="#pricing">PUFI NAP</Nav.Link>
+        <Nav.Link href="#home" className='letter bd_rigth'><FaChair/> <br /> PUFI PUFF</Nav.Link>
+        <Nav.Link href="#features" className='letter bd_rigth'><FaUmbrella/> <br /> PUFI RAIN</Nav.Link>
+        <Nav.Link href="#pricing" className='letter bd_rigth'><FaShoppingBag/> <br /> PUFI CART</Nav.Link>
+        <Nav.Link href="#pricing" className='letter'><FaBox/> <br /> PUFI NAP</Nav.Link>
       </Nav>
       <Nav className="justify-content-end">
         <NavDropdown title="MI CUENTA" className='cuenta' id="basic-nav-dropdown">
-          <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">
-            Another action
-          </NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.1">Información</NavDropdown.Item>
           <NavDropdown.Divider />
           <NavDropdown.Item href="#action/3.4">
-            Separated link
+            Registrarse
           </NavDropdown.Item>
         </NavDropdown>
         <Nav className="">

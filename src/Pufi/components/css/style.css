@@ -22,26 +22,23 @@
     height: 426px;
 }
 
-.boton_card {
-    border-radius: 0px;
-    border-color: var(--bg-color-primary);
-    color: var(--bg-color-primary);
-    width: 150px;
-
-    --bs-btn-hover-color: #000;
-    --bs-btn-hover-bg: white;
-    --bs-btn-hover-border-color: white;
-}
-
 .img_descp{
     width: 30%;
 }
 
 .cl_w{
-    color: gray;
+    color: var(--bg-color-primary);
     width: 50%;
+}
+
+.img-100{
+    width: 100%;
 }
 
 .cursor{
     cursor: pointer;
+}
+
+.bd_rigth{
+    border-right: 2px solid var(--bg-color-primary);
 }

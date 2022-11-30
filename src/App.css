@@ -14,7 +14,6 @@
   --bg-color-secondary: black;
 }
 
-
 .pufiwhite{
   font-family: 'Fredoka One', cursive;
   color: var(--bg-color-primary);
@@ -39,8 +38,31 @@
 
 .cuenta {
   font-family: 'Prompt', sans-serif;
-  color: var(--bg-color-secondary);
+  color: var(--bg-color-primary);
   font-size: 12px;
+}
+.cuentablack {
+  font-family: 'Prompt', sans-serif;
+  color: var(--bg-color-secondary);
+}
+.gray{
+  color: gray;
+}
+.navbar-nav .show>.nav-link {
+  color: var(--bg-color-primary);
+}
+.nav-link{
+  color: var(--bg-color-primary);
+}
+.boton_card {
+  border-radius: 0px;
+  border-color: var(--bg-color-primary);
+  color: var(--bg-color-primary);
+  width: 150px;
+
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: white;
+  --bs-btn-hover-border-color: white;
 }
 
 p {
