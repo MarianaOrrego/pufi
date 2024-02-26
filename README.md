@@ -17,7 +17,6 @@ https://github.com/MarianaOrrego/pufi/assets/83648336/4d6c7417-ceaf-4dc6-a466-34
 - Bootstrap
 - Materialize
 - UUID
-- ------
 
 ## The Process
 Vite was used to start the project and obtain a template. The Pufi folder is created, which will contain the following folders:
@@ -45,3 +44,4 @@ To run the project in your local environment, follow these steps:
 2. Run `npm install` or `yarn` in the project directory to install the required dependencies
 3. Run `npm run start` or `yarn start` to get the project started
 4. Open the address shown in your console in your web browser to view the app
+5. hfhsjdjfsf
