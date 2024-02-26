@@ -17,6 +17,7 @@ https://github.com/MarianaOrrego/pufi/assets/83648336/4d6c7417-ceaf-4dc6-a466-34
 - Bootstrap
 - Materialize
 - UUID
+- ------
 
 ## The Process
 Vite was used to start the project and obtain a template. The Pufi folder is created, which will contain the following folders:
